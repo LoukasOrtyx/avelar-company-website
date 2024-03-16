@@ -1,0 +1,26 @@
+/* Header.css */
+.header-container {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .header-image {
+	width: 150px; /* Ajustando o tamanho da imagem */
+	height: auto;
+	border: 3px solid #fff; /* Adicionando uma borda branca à imagem */
+	margin-bottom: 20px; /* Adicionando um espaço entre a imagem e o título */
+  }
+  
+  .header-title {
+	font-size: 28px; /* Aumentando o tamanho do título */
+	font-weight: bold; /* Deixando o título em negrito */
+  }
+  
+  .header-subtitle {
+	font-size: 18px; /* Definindo o tamanho do subtítulo */
+	font-style: italic; /* Adicionando estilo itálico ao subtítulo */
+	margin-top: 10px; /* Adicionando um espaço entre o título e o subtítulo */
+  }
+  

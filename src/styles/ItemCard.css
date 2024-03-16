@@ -1,0 +1,49 @@
+/* ItemCard.css */
+
+.item-card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionando sombra para dar profundidade */
+	cursor: pointer;
+	overflow: hidden;
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .item-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumentando a sombra no hover */
+  }
+
+  .item-card .item-image {
+	width: 100%;
+	height: 256px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc; /* Adicione uma borda para visualização */
+  }
+
+  .item-card img {
+	max-width: 256px;
+	max-height: 256px;
+	width: auto;
+	height: auto;
+	display: block; /* Para evitar espaços em branco abaixo da imagem */
+	margin: auto; /* Para centralizar a imagem vertical e horizontalmente */
+  }
+  
+  .item-details {
+	padding: 16px;
+  }
+  
+  .item-details h3 {
+	font-size: 1.2rem;
+	margin: 0;
+	color: #333;
+  }
+  
+  .item-details p.price {
+	font-size: 1rem;
+	margin-top: 8px;
+	color: #888;
+  }

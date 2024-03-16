@@ -1,0 +1,14 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Define três colunas com largura igual */
+	gap: 20px; /* Espaçamento entre os itens */
+  }
+  
+  .pagination {
+	margin-top: 20px;
+  }
+  
+  .pagination button {
+	margin-right: 5px;
+  }
+  

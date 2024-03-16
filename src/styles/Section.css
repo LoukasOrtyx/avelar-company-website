@@ -1,0 +1,39 @@
+.item-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Cria colunas que se ajustam automaticamente */
+	grid-gap: 20px; /* Espaçamento entre os cartões */
+	margin-top: 20px; /* Adicionando uma margem superior para separar os cartões do topo */
+  }
+  
+  .item-card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 16px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .item-card:hover {
+	transform: translateY(-4px);
+  }
+  
+  .item-card img {
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 8px;
+  }
+  
+  .item-details h3 {
+	font-size: 1.2rem;
+	margin: 0;
+  }
+  
+  .item-details p {
+	color: #888;
+	margin-top: 8px;
+	font-size: 1rem;
+  }
+  
+  .item-details p.price {
+	font-weight: bold;
+  }
